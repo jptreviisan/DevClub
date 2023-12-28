@@ -85,9 +85,54 @@ p {
 
 @media screen and (max-width: 900px) {
 
+    * {
+        padding: 0;
+        margin: 0;
+    }
+
+header :not(button) {
+    display: none;
+}
+
+.bentrar {
+    position: absolute;
+    right: 15px;
+    top: 17px;
+}
+
+img {
+    position: fixed;
+    height: 80%;
+    width: 50%;
+    margin: 59px 39px 22px 39px;
+    bottom: 22px;
+}
+
 h1 {
+    text-align: center;
     font-size: 30px;
-    
+    font-weight: 700;
+    line-height: 30px; 
+    letter-spacing: 0.596px;
+    width: 278px;
+    margin-top: 129px;
+}
+
+p {
+    display: block;
+    width: 304px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0.5px;
+    margin-top: 29px;
+    margin-bottom: 26px;
+}
+
+.bler {
+    display: block;
+    margin: auto;
 }
 
 }

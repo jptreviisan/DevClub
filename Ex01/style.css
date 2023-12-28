@@ -82,3 +82,49 @@ section {
     border: none;
     cursor: pointer;
 }
+
+@media screen and (max-width: 700px) {
+
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    header {
+        display: none;
+    }
+
+    .logo-img {
+        position: static;
+        width: 90%;
+        height: 90%;
+        margin: 149px 22px 0 14px;
+    }
+
+    h1 {
+        font-size: 50px;
+        width: 263px;
+        text-align: center;
+        font-weight: 900;
+
+    }
+
+    h2 {
+        font-size: 25px;
+        width: auto;
+        margin-top: 7px;
+        margin-bottom: 17px;
+        text-align: center;
+        font-weight: 500;
+    }
+
+    p {
+        display: none;
+    }
+
+    .bexplore {
+        border-radius: 30px;
+        display: block;
+        margin: auto;
+    }
+}
