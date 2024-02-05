@@ -115,7 +115,7 @@ button:hover {
     font-size: 14px;
 }
 
-.div1-value {
+.div1-value, .div-value-to-convert {
     color: #555555;
     font-size: 20px;
     font-weight: 700;
