@@ -19,14 +19,18 @@
         let input = document.querySelector('input')
 
 
+
         const contacts = [
             { name: 'Rodolfo', number: '(19) 123456689' },
             { name: 'Rafaela', number: '(19) 123456689' },
             { name: 'Maria', number: '(19) 123456689' },
             { name: 'Joaquim', number: '(19) 123456689' },
         ]
+
         function search() {
-            for (let i = 0; i < contacts.length; i++) {
+            let i = 0;
+            while (i < contacts.length) {
+
                 if (input.value.toLowerCase() === contacts[i].name.toLowerCase()) {
                     p.innerHTML = `Contato encontrado Nome:${contacts[i].name} Telefone:${contacts[i].number} `
 
@@ -34,7 +38,7 @@
                 } else {
                     p.innerHTML = "Contato não encontrado"
                 }
-
+                i++;
             }
         }
 
