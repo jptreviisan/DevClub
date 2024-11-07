@@ -5,9 +5,6 @@ const buttonMapAll = document.querySelector('.map-all')
 const sumAll = document.querySelector('.sum-all')
 const filterAll = document.querySelector('.filter-all')
 
-
-
-
 function showAll(productsArray) {
     myLi = ''
     productsArray.forEach((product) => {
@@ -44,8 +41,6 @@ function filterAllItens(){
 
     showAll(newVegan)
 }
-
-
 
 buttonMapAll.addEventListener('click', mapAllItens)
 buttonShowAll.addEventListener('click', () => showAll(menuOptions))
